@@ -5,11 +5,8 @@ import YoutubePlayer from "react-native-youtube-iframe";
 const { width } = Dimensions.get('window');
 
 const videos = [
-    { id: 'Rdc8_fpxC3U', title: 'Video 1' },
-    { id: 'T43uHajxfno', title: 'Video 2' },
-    { id: 'ja96W3ogBbM', title: 'Video 3' },
-    { id: 'iAZA4yX0mf4', title: 'Video 4' },
-    { id: '21mDekTZwsw', title: 'Video 5' },
+    { id: 'hJaI_ImE_bU', title: 'banana' },
+    { id: 'sVfe9DodOfI', title: 'bananana' },
 ];
 
 export default function YoutubeVideo() {
@@ -28,7 +25,7 @@ export default function YoutubeVideo() {
 
     const renderVideoItem = (item, index) => (
         <View key={index} style={{ width: width }}>
-            <ImageBackground style={{ flex: 1, justifyContent: 'center' }} source={{ uri: 'https://seculoxximinas.com.br/fgv/wp-content/uploads/2018/12/Webp.net-compress-image-20.jpg' }}>
+            <ImageBackground style={{ flex: 1, justifyContent: 'center' }} source={{ uri: 'https://www.saudeemdia.com.br/wp-content/uploads/2023/07/banana-emagrece.jpg' }}>
                 <YoutubePlayer
                     height={300}
                     play={playing}
@@ -41,7 +38,7 @@ export default function YoutubeVideo() {
 
     return (
         <View style={{ flex: 1 }}>
-            <Text style={[styles.title, { backgroundColor: '#6c4ab6' }]}>{currentTitle}</Text>
+            <Text style={[styles.title, { backgroundColor: '#886A08' }]}>{currentTitle}</Text>
             <ScrollView
                 horizontal
                 pagingEnabled

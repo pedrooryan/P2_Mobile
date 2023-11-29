@@ -68,14 +68,14 @@ export default function ListaSenhasAsyncStorage() {
         <TextInput
           style={{ flex: 4 }}
           mode='outlined'
-          label='Site'
+          label='local'
           value={site}
           onChangeText={(text) => setSite(text)}
         />
         <TextInput
           style={{ flex: 4 }}
           mode='outlined'
-          label='Senha'
+          label='valor'
           value={senha}
           onChangeText={(text) => setSenha(text)}
         />
@@ -91,8 +91,8 @@ export default function ListaSenhasAsyncStorage() {
           <View style={styles.cardContainer}>
             <View style={styles.cardContent}>
               <View style={styles.cardText}>
-                <Text>{`Site: ${item.site}`}</Text>
-                <Text>{`Senha: ${item.senha}`}</Text>
+                <Text>{`local: ${item.site}`}</Text>
+                <Text>{`valor: ${item.senha}`}</Text>
               </View>
               <IconButton icon='pen' onPress={() => handleEditarSenha(item)} />
               <IconButton icon='trash-can-outline' onPress={() => excluirSenha(item)} />
@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#6c4ab6',
+    backgroundColor: '#886A08',
   },
   inputContainer: {
     flexDirection: 'row',

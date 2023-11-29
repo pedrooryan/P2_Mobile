@@ -13,12 +13,12 @@ export default function DrawerRoutes() {
     return (
         <Drawer.Navigator initialRouteName='Home'>
 
-            <Drawer.Screen name="Início" component={Home} />
-            <Drawer.Screen name="Cadastro" component={Cadastro} />
-            <Drawer.Screen name="Lembretes" component={ListaCarros} />
-            <Drawer.Screen name="Senhas" component={Senhas} />
-            <Drawer.Screen name="Cadastro Pacientes" component={StackPessoas} />
-            <Drawer.Screen name="Videos" component={Videos} />
+            <Drawer.Screen name="Como fazer vitamina de banana:" component={Home} />
+            <Drawer.Screen name="Cadastro da banana" component={Cadastro} />
+            <Drawer.Screen name="Lembre da banana" component={ListaCarros} />
+            <Drawer.Screen name="Comprar banana" component={Senhas} />
+            <Drawer.Screen name="Cliente da banana" component={StackPessoas} />
+            <Drawer.Screen name="Vídeo da banana" component={Videos} />
 
         </Drawer.Navigator>
 

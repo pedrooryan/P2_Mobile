@@ -119,7 +119,7 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#6c4ab6',
+        backgroundColor: '#886A08',
     },
     inputContainer: {
         flexDirection: 'row',
@@ -128,7 +128,6 @@ const styles = StyleSheet.create({
         gap: 5
     },
     button: {
-        flex: 1,
         alignItems: 'center',
         justifyContent: 'center'
     },
@@ -137,7 +136,7 @@ const styles = StyleSheet.create({
         marginTop: 10
     },
     card: {
-        margin: 5
+        margin: 10
     },
     cardContent: {
         flexDirection: 'row',

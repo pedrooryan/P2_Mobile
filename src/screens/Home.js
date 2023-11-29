@@ -13,7 +13,7 @@ export default function Home() {
 
       <View style={styles.content}>
         <Text style={[styles.text, { fontFamily: 'Roboto' }]}>
-          Organizar faz bem!
+          pega a banana, o leite, o liquidificador e bate
         </Text>
       </View>
     </View>
@@ -23,15 +23,14 @@ export default function Home() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#6c4ab6',  
+    backgroundColor: '#886A08',  
   },
   header: {
-    height: 200,  
+    height: 500,  
   },
   headerImage: {
     width: '100%',  
-    height: '100%', 
-    resizeMode: 'cover',  
+    height: '100%' 
   },
   content: {
     flex: 1,
@@ -39,8 +38,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',      
   },
   text: {
-    fontSize: 24,
-    fontWeight: 'bold',
+    fontSize: 30,
     color: 'white',  
   },
 });

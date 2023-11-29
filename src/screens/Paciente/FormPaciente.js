@@ -81,7 +81,7 @@ export default function FormPaciente({ navigation, route }) {
 
                 <TextInput
                     style={styles.input}
-                    label={'Sexo | M, F, Outro'}
+                    label={'Sexo | M, F'}
                     mode='outlined'
                     value={sexo}
                     onChangeText={text => setSexo(text)}
@@ -150,7 +150,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#6c4ab6',
+        backgroundColor: '#886A08',
     },
     title: {
         fontWeight: 'bold',

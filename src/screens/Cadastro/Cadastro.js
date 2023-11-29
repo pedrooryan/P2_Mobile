@@ -1,6 +1,6 @@
 import { Formik } from 'formik';
 import React, { useEffect, useState } from 'react';
-import { FlatList, StyleSheet, View } from 'react-native';
+import { FlatList, StyleSheet, View, Image } from 'react-native';
 import { Button, Card, IconButton, Text, TextInput } from 'react-native-paper';
 import * as Yup from 'yup';
 import { TextInputMask } from 'react-native-masked-text';
@@ -97,7 +97,7 @@ export default function Cadastro() {
           textShadowOffset: { width: 3, height: 3 }
         }}
       >
-        Cadastre-se
+        fila da banana
       </Text>
 
       <Formik
@@ -199,10 +199,14 @@ export default function Cadastro() {
               onPress={() => {
                 handleSubmit();
               }}
-              style={{ marginTop: '4%', }}
+              style={{
+                marginTop: '4%',
+                color: 'black',
+              }}
             >
               {usuarioEditando !== null ? 'Atualizar' : 'Cadastrar'}
             </Button>
+
           </>
         )}
       </Formik>
@@ -236,7 +240,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: '2%',
-    backgroundColor: '#6c4ab6',
+    backgroundColor: '#886A08',
   },
   inputContainer: {
     width: '90%',
@@ -249,17 +253,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   card: {
-    margin: 5,
+    margin: 10,
   },
   cardContent: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  userDataContainer: {
-    marginRight: '30%',
-  },
-  iconButtonsContainer: {
-    flexDirection: 'row',
   },
 });
